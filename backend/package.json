@@ -1,0 +1,23 @@
+{
+  "name": "magicmirrir-backend",
+  "description": "Backend for the magic mirror",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samsamann/MagicMirror"
+  },
+  "author": "Samuel Ackermann",
+  "license": "MIT",
+  "scripts": {
+    "build-tsc": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "ws": "^6.1.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  }
+}
