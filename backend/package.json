@@ -1,6 +1,6 @@
 {
-  "name": "magicmirrir-backend",
-  "description": "Backend for the magic mirror",
+  "name": "magic-mirror-backend",
+  "description": "Backend for the MagicMirror",
   "version": "0.1.0",
   "repository": {
     "type": "git",
