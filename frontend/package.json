@@ -7,7 +7,8 @@
     "url": "https://github.com/samsamann/MagicMirror"
   },
   "contributors": [
-    "Samuel Ackermann"
+    "Samuel Ackermann",
+    "Benjamin Ackermann"
   ],
   "license": "MIT",
   "private": true,
