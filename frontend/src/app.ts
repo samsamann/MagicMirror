@@ -3,6 +3,8 @@ import * as path from 'path';
 import * as url from 'url';
 
 let win;
+const args = process.argv.slice(1);
+const dev = args.some(val => val === '--dev' || val === '-d');
 
 function createWindow() {
 
@@ -26,6 +28,10 @@ function createWindow() {
 }
 
 try {
+  if (dev) {
+    require('electron-reload')(__dirname);
+  }
+
   app.on('ready', createWindow);
 
   // Quit when all windows are closed.
